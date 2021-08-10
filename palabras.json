@@ -1,10 +1,14 @@
 {"intents": [
   {"tag": "inicio",
-    "patterns": ["Hola","Asistente","Hola asistente","Hola asistente como estas?","Asistente estas ahi?","buenos dias","buenos dias asistente","buenas tardes","buenas tardes asistente"],
+    "patterns": ["asistente","hola asistente","hola asistente como estas?","asistente estas ahi?","buenos dias","buenos dias asistente","buenas tardes","buenas tardes asistente","hola asistente financiero","hola"],
     "responses": [""]
   },
   {"tag": "lista",
     "patterns": ["Agregar a lista de acciones","agregar a lista"],
+    "responses": [""]
+  },
+    {"tag": "vender",
+    "patterns": ["vender de la lista de acciones","vender acciones"],
     "responses": [""]
   },
   {"tag": "presentar",
@@ -15,32 +19,8 @@
     "patterns": ["Adios","Chao","cerrar","eso es todo gracias","salir"],
     "responses": [""]
   },
-  {"tag": "plot_chart",
-    "patterns": ["Quiero un grafico del valor","Por favor muestra el grafico"],
-    "responses": [""]
-  },
-  {"tag": "add_portafolio",
-    "patterns": ["agregar al portafolio","agregar accion","añadir a mi lista de acciones"],
-    "responses": [""]
-  },
-  {"tag": "remove_portafolio",
-    "patterns": ["remover de mi portafolio","Remover de la lista","eliminar de la lista"],
-    "responses": [""]
-  },
-   {"tag": "remove_portafolio",
-    "patterns": ["remover de mi portafolio","Remover de la lista","eliminar de la lista"],
-    "responses": [""]
-  },
-   {"tag": "show_portafolio",
-    "patterns": ["presentar inversiones","lista de inversiones","ver lista de inversiones","ver inversiones"],
-    "responses": [""]
-  },
-    {"tag": "stock_price",
-    "patterns": [""],
-    "responses": [""]
-  },
-    {"tag": "portafolio_worth",
-    "patterns": ["Cuanto vale mi portafolio","quiero saber el precio de mi portafolio"],
+  {"tag": "grafica_accion",
+    "patterns": ["grafico del valor de las acciones","grafico de las acciones","grafico de acciones"],
     "responses": [""]
   }
 ]
