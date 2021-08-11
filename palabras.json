@@ -1,6 +1,6 @@
 {"intents": [
   {"tag": "inicio",
-    "patterns": ["asistente","hola asistente","hola asistente como estas?","asistente estas ahi?","buenos dias","buenos dias asistente","buenas tardes","buenas tardes asistente","hola asistente financiero","hola"],
+    "patterns": ["asistente","hola asistente","hola asistente como estas?","asistente estas ahi?","buenos dias","buenos dias asistente","buenas tardes","buenas tardes asistente","hola asistente financiero","habla bot financiero"],
     "responses": [""]
   },
   {"tag": "salir",
